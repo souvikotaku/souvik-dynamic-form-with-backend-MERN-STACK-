@@ -1,0 +1,276 @@
+{
+	"field": [
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d3b",
+				"fieldName": "companyName",
+				"fieldLabel": "Company Name",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Brand Information",
+				"order": 1,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d3c",
+				"fieldName": "companyCode",
+				"fieldLabel": "Company Code",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Brand Information",
+				"order": 2,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d3d",
+				"fieldName": "currency",
+				"fieldLabel": "Currency",
+				"required": true,
+				"type": "dropDown",
+				"option": [
+					{
+						"optionLabel": "USD",
+						"order": 1,
+						"default": true
+					},
+					{
+						"optionLabel": "INR",
+						"order": 2,
+						"default": true
+					},
+					{
+						"optionLabel": "AUD",
+						"order": 3,
+						"default": true
+					}
+				],
+				"sectionName": "Brand Information",
+				"order": 3,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d3e",
+				"fieldName": "portalLanguage",
+				"fieldLabel": "Portal Language",
+				"required": true,
+				"type": "dropDown",
+				"option": [
+					{
+						"optionLabel": "English",
+						"order": 1,
+						"default": true
+					}
+				],
+				"sectionName": "Brand Information",
+				"order": 4,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d3f",
+				"fieldName": "postalCode",
+				"fieldLabel": "Postal Code",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Address Information",
+				"order": 5,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d40",
+				"fieldName": "city",
+				"fieldLabel": "City",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Address Information",
+				"order": 6,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d41",
+				"fieldName": "state",
+				"fieldLabel": "State",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Address Information",
+				"order": 7,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d42",
+				"fieldName": "country",
+				"fieldLabel": "Country",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Address Information",
+				"order": 8,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d43",
+				"fieldName": "communicationLanguage",
+				"fieldLabel": "Communication Language",
+				"required": true,
+				"type": "dropDown",
+				"option": [
+					{
+						"optionLabel": "English",
+						"order": 1,
+						"default": true
+					}
+				],
+				"sectionName": "Additional Information",
+				"order": 9,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d44",
+				"fieldName": "comments",
+				"fieldLabel": "Comments",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Additional Information",
+				"order": 10,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d44",
+				"fieldName": "pinCode",
+				"fieldLabel": "Pin Code",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Pin Code Information",
+				"order": 11,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d45",
+				"fieldName": "shortDescription",
+				"fieldLabel": "Short Description",
+				"required": true,
+				"type": "singleLine",
+				"sectionName": "Additional Information",
+				"order": 12,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		},
+		{
+			"fieldData": {
+				"_id": "6020f60f70efe34a10575d46",
+				"fieldName": "servicesAccess",
+				"fieldLabel": "Services Access",
+				"required": true,
+				"type": "dropDown",
+				"option": [
+					{
+						"optionLabel": "OM",
+						"order": 1,
+						"default": true
+					}
+				],
+				"sectionName": "Service Access to Brand",
+				"order": 13,
+				"resource": "Brand",
+				"editAble": true,
+				"createdAt": "2021-02-08T08:27:59.613Z",
+				"brand": "6020f73906a8791f98c61949"
+			},
+			"isUpdate": true,
+			"isCreate": true,
+			"isRead": true
+		}
+	]
+}

@@ -1,0 +1,81 @@
+.close {
+    color: #aaaaaa;
+    float: right;
+    padding-top: 1%;
+    padding-right: 3%;
+    font-size: 28px;
+    font-weight: bold;
+   }
+   
+   .close:hover,
+   .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+   }
+
+   .updatebox  {
+    padding-top: 0px;
+        background-color:white;
+        /* border: solid black 2px; */
+        border-radius: 5px;
+        width: 30%;
+        height: fit-content;
+        box-shadow: 0px 0px 10px;
+        display: inline-block;
+        /* padding-bottom: 4px; */
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 20px;
+        z-index: 20000 !important;
+  }
+
+   .tablediv {
+    background-color:rgba(255, 255, 255, 0.034);
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }  
+
+  .modal {
+    /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 200000; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ }
+
+ body {
+    background: #B79891;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #94716B, #B79891);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #94716B, #B79891); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+@media (orientation: portrait) {
+    #cardbody {
+        width: 100%
+    }
+
+    .updatebox  {
+        padding-top: 0px;
+            background-color:white;
+            /* border: solid black 2px; */
+            border-radius: 5px;
+            width: 100%;
+            height: fit-content;
+            box-shadow: 0px 0px 10px;
+            display: inline-block;
+            /* padding-bottom: 4px; */
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 20px;
+            z-index: 20000 !important;
+      }
+}
